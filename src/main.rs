@@ -1,5 +1,5 @@
-use rust_template::run;
 use std::net::TcpListener;
+use rust_template::startup::run;
 
 #[tokio::main]
 async fn main() -> std::io::Result<()> {
